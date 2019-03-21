@@ -5,7 +5,7 @@ using namespace std;
 #define s second
 
 //https://codeforces.com/contest/877/problem/D
-//grafo + dp?
+
 
 const int tam = 1005; 
 int dy[] = {1,0,-1, 0}; 
