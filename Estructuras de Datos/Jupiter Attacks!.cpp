@@ -11,7 +11,7 @@ typedef long long ll;
 typedef pair <int, int> p;
 
 long long pot[100005];
-vector<pair<long long, pair<int, int> > > conjs;
+vector<pair<long long, pair<int, int> > > conjs; ///almacena los subconjuntos de rangos que entran en una consulta 
 
 class SegmentTree {         
 private: vector<long long> st; 
